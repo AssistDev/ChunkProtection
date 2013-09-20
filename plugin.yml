@@ -1,0 +1,7 @@
+name: ChunkProtection
+version: 1.0
+author: Assist
+main: main.java.me.avastprods.chunkprotection.ChunkProtection
+commands:
+  chunkprotection:
+    description: Main command
