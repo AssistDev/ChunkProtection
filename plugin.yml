@@ -1,7 +1,9 @@
 name: ChunkProtection
-version: 1.0
-author: Assist
+version: 1.3
+authors: [Assist]
 main: main.java.me.avastprods.chunkprotection.ChunkProtection
 commands:
   chunkprotection:
     description: Main command
+  cp:
+    description: Alies of chunkprotection command
