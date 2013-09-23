@@ -49,7 +49,6 @@ public class ChunkManager {
 			counter++;
 		}
 
-		playerData.getData().set("claimcount", 0);
 		playerData.saveData();
 
 		return counter;
