@@ -58,7 +58,6 @@ public class EventManager implements Listener {
 
 						} else {
 							if (event.getPlayer().getItemInHand().getType().isBlock() && event.getPlayer().getItemInHand().getType() != Material.AIR) {
-								System.out.println(event.getPlayer().getItemInHand().getType().isBlock() + " " + event.getPlayer().getItemInHand().getType());
 								event.getPlayer().sendMessage(colorize(messageData.getData().getString("message.event.place_deny").replaceAll("%claimer%", chunkManager.getClaimer(event.getClickedBlock().getChunk()).getName())));
 							}
 						}
