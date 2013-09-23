@@ -47,7 +47,7 @@ public class MessageData {
 		}
 	}
 	
-	public void setup() {		
+	public void setup() {
 		if(!getData().contains("message.command.prefix")) getData().set("message.command.prefix", "&1[&fChunkProtection&1]&f");		
 		if(!getData().contains("message.command.chunk_claimed")) getData().set("message.command.chunk_claimed", "%prefix% Succesfully claimed chunk!");
 		if(!getData().contains("message.command.chunk_unclaimed")) getData().set("message.command.chunk_unclaimed", "%prefix% Succesfully unclaimed chunk!");
