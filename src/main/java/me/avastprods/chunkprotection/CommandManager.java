@@ -19,8 +19,6 @@ public class CommandManager implements CommandExecutor {
 		clazz = instance;
 	}
 
-	public static String prefix = ChatColor.DARK_BLUE + "[" + ChatColor.WHITE + "ChunkProtection" + ChatColor.DARK_BLUE + "]" + ChatColor.RESET;
-
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if (!(sender instanceof Player)) {
 			return true;
